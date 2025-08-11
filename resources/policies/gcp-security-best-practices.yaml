@@ -13,10 +13,10 @@ ruleIds:
   - gcp-iam-and-security-iam-project-roles.yaml
   - gcp-iam-and-security-ensure-only-gcp-managed-service-account-keys-for-each-service-account.yaml # CIS 1.4
   - gcp-iam-and-security-iam-service-account-keys.yaml
-#  - gcp-iam-and-security-ensure-that-mfa-is-enabled-for-all-non-service-accounts.yaml # CIS 1.2
-#  - gcp-security-and-identity-compliance-ske-enabled.yaml
+  - gcp-iam-and-security-ensure-that-mfa-is-enabled-for-all-non-service-accounts.yaml # CIS 1.2
+  - gcp-security-and-identity-compliance-ske-enabled.yaml
   - gcp-management-tools-ensure-service-account-has-no-admin-privilege.yaml # CIS 1.5
-#  - gcp-iam-and-security-service-accounts-sod.yaml
+  - gcp-iam-and-security-service-accounts-sod.yaml
   - gcp-iam-and-security-ensure-kms-cryptokeys-are-not-anonymously-or-publicly-accessible.yaml # CIS 1.9
   - gcp-security-and-identity-compliance-kms-rotation.yaml
   - gcp-iam-and-security-ensure-separation-of-duties-is-enforced-while-assigning-kms-related-roles-to-users.yaml # CIS 1.11
@@ -35,7 +35,7 @@ ruleIds:
   - gcp-networking-and-content-delivery-rdp-access.yaml
   - gcp-network-and-content-delivery-ensure-that-vpc-flow-logs-is-enable-for-every-vpc-network-subnet.yaml # CIS 3.8
 #  - gcp-networking-and-content-delivery-ssl-policies.yaml
-#  - gcp-network-and-content-delivery-ensure-firewall-rules-for-instances-behind-iap-only-allow-traffic-from-gclb-addresses.yaml # CIS 3.10
+  - gcp-network-and-content-delivery-ensure-firewall-rules-for-instances-behind-iap-only-allow-traffic-from-gclb-addresses.yaml # CIS 3.10
   - gcp-compute-editor-role.yaml
   - gcp-compute-ensure-instances-are-not-configured-to-use-the-default-service-account.yaml # CIS 4.2
   - gcp-compute-vm-project-ssh-keys.yaml
