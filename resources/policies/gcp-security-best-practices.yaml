@@ -7,7 +7,7 @@ description: >
 
   Google Cloud Security Best Practices analyzes accounts for security best practices and is modelled
   on guidance published by the Center for Information Security.
-enabled: false
+enabled: true
 ruleIds:
   - gcp-iam-and-security-ensure-oslogin-is-enabled-for-a-project.yaml
   - gcp-iam-and-security-iam-project-roles.yaml
